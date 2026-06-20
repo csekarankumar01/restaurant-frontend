@@ -6,13 +6,13 @@ const Team = () => {
     <section className="team" id="team">
       <div className="container">
         <div className="heading_section">
-          <h1 className="heading">OUR TEAM</h1>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus culpa velit molestiae!</p>
+          <h1 className="heading">MEET THE TEAM</h1>
+          <p>Meet the passionate individuals who bring magic to your plate every single day. Their dedication is the secret ingredient!</p>
         </div>
         <div className="team_container">
           {apiData.data[0].team.map((element) => {
             return (
-              <div className="card" key={element.id}>
+              <div className="card glass-card" key={element.id}>
                 <img src={element.image} alt={element.name} />
                 <h3>{element.name}</h3>
                 <p>{element.designation}</p>

@@ -28,19 +28,16 @@ const HeroSection = () => {
           {/* Left Card */}
           <div className="image_wrapper primary_img">
             <img 
-              src="/reservation.png" 
-              alt="Signature Delicious Hot Pancakes" 
-              onError={(e) => {
-                e.target.src = "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?auto=format&fit=crop&w=600&q=80";
-              }}
+              src="/avocado_toast.png" 
+              alt="Delicious Avocado Toast" 
             />
           </div>
           
           {/* Right Card */}
           <div className="image_wrapper secondary_img">
             <img 
-              src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80" 
-              alt="Premium Crispy Chicken Burger" 
+              src="/buddha_bowl.png" 
+              alt="Fresh Vegan Buddha Bowl" 
             />
             <div className="badge_floater">
               <span>Top Rated</span>

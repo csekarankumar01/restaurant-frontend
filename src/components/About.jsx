@@ -12,12 +12,7 @@ const About = () => {
           </div>
           <h1 className="heading">The only thing we're serious about is food.</h1>
           <p className="mid">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas
-            nihil quo dolore dignissimos perferendis iusto error iure nemo
-            facere, vitae adipisci aspernatur! Unde asperiores expedita, fugit
-            natus aliquid voluptatem similique, accusamus quasi molestiae
-            dolore facere error culpa! Pariatur illum, ex ullam quo qui illo
-            minima maxime doloremque vel. Odio, ipsum!
+            We believe that every meal is a celebration. From sun-kissed mornings with our freshly brewed coffee to vibrant evenings filled with laughter and exquisite dinners, we are here to craft moments of joy. Our ingredients are sourced with care, our dishes made with love, and our space designed for you to unwind, connect, and enjoy life's delicious moments.
           </p>
           
           {/* FIX: Set href to "#menu" to scroll smoothly down to your menu component */}

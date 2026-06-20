@@ -50,7 +50,7 @@ const Reservation = () => {
           <img src="/reservation.png" alt="res" />
         </div>
         <div className="banner">
-          <div className="reservation_form_box">
+          <div className="reservation_form_box glass-card" style={{padding: '40px', border: 'none'}}>
             <h1>MAKE A RESERVATION</h1>
             <p>For Further Questions, Please Call</p>
             <form onSubmit={handleReservation}>

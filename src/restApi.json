@@ -23,51 +23,51 @@
         "dishes": [
             {
                 "id": 1,
-                "image": "./dinner1.jpeg",
-                "title": "ROASTED LAMB RUMP",
-                "category": "Dinner"
-            },
-            {
-                "id": 2,
-                "image": "./dinner2.png",
-                "title": "CITRUS CURED SALMON",
-                "category": "Dinner"
-            },
-            {
-                "id": 3,
-                "image": "./breakfast1.png",
-                "title": "PAN SEARED SEA BASS",
+                "image": "./avocado_toast_1781940311251.png",
+                "title": "AVOCADO TOAST",
                 "category": "Breakfast"
             },
             {
+                "id": 2,
+                "image": "./pancakes_1781940313962.png",
+                "title": "FLUFFY PANCAKES",
+                "category": "Breakfast"
+            },
+            {
+                "id": 3,
+                "image": "./buddha_bowl_1781940328223.png",
+                "title": "VEGAN BUDDHA BOWL",
+                "category": "Lunch"
+            },
+            {
                 "id": 4,
-                "image": "./dinner3.png",
-                "title": "STUFFED STRAWBERRY",
-                "category": "Dinner"
+                "image": "./chicken_salad_1781940347605.png",
+                "title": "GRILLED CHICKEN SALAD",
+                "category": "Lunch"
             },
             {
                 "id": 5,
-                "image": "./lunch1.png",
-                "title": "BURGER MEAL",
+                "image": "./margherita_pizza_1781940359114.png",
+                "title": "MARGHERITA PIZZA",
                 "category": "Lunch"
             },
             {
                 "id": 6,
-                "image": "./dinner4.png",
-                "title": "MUSSELS SOUP",
+                "image": "./truffle_risotto_1781940406992.png",
+                "title": "TRUFFLE RISOTTO",
                 "category": "Dinner"
             },
             {
                 "id": 7,
-                "image": "./dinner5.png",
-                "title": "ITALIAN SPAGHETTI",
-                "category": "Dinner"
+                "image": "./tiramisu_1781940373144.png",
+                "title": "CLASSIC TIRAMISU",
+                "category": "Dessert"
             },
             {
                 "id": 8,
-                "image": "./dinner6.png",
-                "title": "GRILLED FISH",
-                "category": "Dinner"
+                "image": "./signature_cocktail_1781940395219.png",
+                "title": "SIGNATURE COCKTAIL",
+                "category": "Drinks"
             }
         ],
         "team": [

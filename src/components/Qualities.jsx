@@ -12,7 +12,7 @@ const Qualities = () => {
             : element.image;
 
           return (
-            <div className="card" key={element.id}>
+            <div className="card glass-card" key={element.id} style={{margin: '10px', padding: '20px'}}>
               <img src={cleanImagePath} alt={element.title} />
               <p className="title">{element.title}</p>
               <p className="description">{element.description}</p>
