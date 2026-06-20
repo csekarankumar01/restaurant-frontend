@@ -28,7 +28,7 @@ const HeroSection = () => {
           {/* Left Card */}
           <div className="image_wrapper primary_img">
             <img 
-              src="/avocado_toast.png" 
+              src="/avocado_toast_1781940311251.png" 
               alt="Delicious Avocado Toast" 
             />
           </div>
@@ -36,7 +36,7 @@ const HeroSection = () => {
           {/* Right Card */}
           <div className="image_wrapper secondary_img">
             <img 
-              src="/buddha_bowl.png" 
+              src="/buddha_bowl_1781940328223.png" 
               alt="Fresh Vegan Buddha Bowl" 
             />
             <div className="badge_floater">

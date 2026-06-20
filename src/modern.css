@@ -121,3 +121,64 @@ img {
 .menu .container .dishes_container .card {
   padding: 15px;
 }
+
+/* Hero Section Responsive Layout Fixes */
+.heroSection .container {
+  gap: 40px !important;
+}
+
+.heroSection .image_showcase {
+  position: relative !important;
+  flex: 1 !important;
+  min-height: 480px !important;
+  width: 100% !important;
+}
+
+.heroSection .primary_img {
+  position: absolute !important;
+  width: 55% !important;
+  height: auto !important;
+  aspect-ratio: 3/4;
+  left: 0 !important;
+  top: 10% !important;
+  z-index: 1 !important;
+  border: none !important;
+}
+
+.heroSection .secondary_img {
+  position: absolute !important;
+  width: 60% !important;
+  height: auto !important;
+  aspect-ratio: 4/5;
+  right: 0 !important;
+  bottom: 5% !important;
+  z-index: 2 !important;
+  border: 8px solid var(--bg-color) !important;
+}
+
+@media (max-width: 1024px) {
+  .heroSection .image_showcase {
+    min-height: 400px !important;
+    margin-top: 30px !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .heroSection .image_showcase {
+    min-height: 350px !important;
+  }
+  .heroSection .primary_img {
+    left: 5% !important;
+    width: 50% !important;
+  }
+  .heroSection .secondary_img {
+    right: 5% !important;
+    width: 60% !important;
+  }
+  .heroSection .text_content {
+    margin-bottom: 20px !important;
+  }
+  .heroSection .main_title {
+    font-size: 3.5rem !important;
+  }
+}
